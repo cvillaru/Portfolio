@@ -1,5 +1,4 @@
 # Portfolio
 
--	started from scratch
--	re-did css
--	this is a better layout
+-	added back in story
+-	seems to be ready for PARALLAX effect to be implemented
