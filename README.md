@@ -1,8 +1,7 @@
 # Portfolio
 
--   stories are now in navbar
--   navbar not good
--   improve navbar. should be sidebar. use "collapsed sidebar"
-    "https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp"
--   navbar words too small
--   navbar size too small in fullscreen mode
+-   navbar hides when cursor not hovering over it
+-   navbar shows when cursor is hovering over it
+-   navbar layout looks awesome
+
+-   NEED TO MAKE PAGE BLUR WHEN NAVBAR IS SHOWING
