@@ -1,7 +1,9 @@
 # Portfolio
 
--   navbar hides when cursor not hovering over it
--   navbar shows when cursor is hovering over it
--   navbar layout looks awesome
+-   navbar fully working
+-   navbar hides and appears when cursor is
+    hovering or not hovering over it
+-   background blurs when navbar is active
+-   navbar links work
 
--   NEED TO MAKE PAGE BLUR WHEN NAVBAR IS SHOWING
+NAVBAR LOOKS AWESOME >:D
