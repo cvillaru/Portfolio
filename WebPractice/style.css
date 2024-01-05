@@ -15,11 +15,11 @@ body {
     position: fixed;
     --blur-value: 0px;
     backdrop-filter: blur(var(--blur-value));
-    transition: backdrop-filter 0.3s ease;
+    transition: backdrop-filter 0.2s ease;
 }
 
 .navbar-container {
-    border-style: dotted;
+    /* border-style: dotted; */
 
     /* display: none; */
     flex-direction: column;
