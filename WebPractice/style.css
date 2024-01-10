@@ -8,8 +8,6 @@ body {
 }
 
 .navbar-shader {
-    /* border: dotted; */
-
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -19,23 +17,21 @@ body {
 }
 
 .navbar-container {
-    /* border-style: dotted; */
-
-    /* display: none; */
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-left: 10%;
+    align-items: center;
+    padding-left: 5%;
     background-color: #ad7e56;
     box-shadow: 0 0 20px 12px rgba(0, 0, 0, 0.6);
     position: fixed;
-    top: 30%;
+    --top-value: 30%;
+    top: var(--top-value);
+    --height-value: 50px;
+    height: var(--height-value);
     left: 0;
-    transform: translateY(-50%);
     min-width: 500px;
     transform: translateX(-100%);
-    width: calc(30% - 20px);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, top 0.4s ease-in-out, height 1s cubic-bezier(0.25, 1, 0.1, 1);
 }
 
 .navbar-container:hover + .navbar-shader {
@@ -43,10 +39,13 @@ body {
 }
 
 .navbar-container:not(:hover) {
-    transform: translateX(calc(-100% + 25px));
+    transform: translateX(calc(-100% + 40px));
 }
 
 .navbar-container:hover{
+    --top-value: 0;
+    height: 100vh;
+    opacity: 1;
     transform: translateX(0%);
 }
 
@@ -54,8 +53,21 @@ body {
     list-style: none;
     margin: 0;
     padding: 0%;
-    width: 100%;
     justify-content: center;
+}
+
+.navbar-container:not(:hover) ul {
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    display: none;
+}
+
+.navbar-container:hover ul {
+    overflow: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    display: visible;
 }
 
 .navbar-container li{
@@ -64,8 +76,6 @@ body {
     width: 80%;
     padding-bottom: 5px;
     border-bottom: 1px solid white;
-    text-align: justify;
-    text-align-last: center;
 }
 
 a{
@@ -94,10 +104,11 @@ a{
 .main-title{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 90px;
     font-weight: 1000;
     color: white;
     text-align-last: center;
+    text-shadow: -6px -2px rgb(0, 0, 0, 0.5);
 }
 
 .story-container{
