@@ -86,6 +86,21 @@ a{
     color: white;
 }
 
+.bckgrnd {
+    border: 1px solid #0f0;
+    position: relative;
+    z-index: 1;
+    top: -12px;
+    left: -12px;
+}
+
+.frgrnd {
+    border: 1px solid #f00;
+    position: relative;
+    z-index: 2;
+}
+
+
 /* ====================== */
 .section1-bg-col-blackolive,
 .section2-bg-col-bonewhite{

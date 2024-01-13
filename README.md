@@ -1,3 +1,4 @@
 # Portfolio
 
--   better feeling nav bar
+-	parallax effect example working
+-	need to apply to website
