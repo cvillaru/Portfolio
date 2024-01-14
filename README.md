@@ -1,4 +1,4 @@
 # Portfolio
 
--	parallax effect example working
--	need to apply to website
+-   parallax effect implemented
+-   looks good

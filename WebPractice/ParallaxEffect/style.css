@@ -14,6 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     position: fixed;
+    filter: blur(3px);
     top: 0;
     left: 0;
     margin: 0;
@@ -39,6 +40,7 @@ body {
 
 .upper, .lower{
     background-color: rgb(61, 61, 61);
+    box-shadow: 0 0 20px 12px rgba(0, 0, 0, 0.6);
     width: 100vw;
     padding: 0;
     margin: 0;
