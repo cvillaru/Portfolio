@@ -92,16 +92,17 @@ a{
     overflow: hidden;
     height: 80vh;
     align-items: center;
+    padding-bottom: 15%;
 }
 
 .home-page-title{
-    top:6%;
+    top: 12%;
     left: 10%;
     right: 10%;
     position: fixed;
-    font-size: 9vw;
+    font-size: 1000%;
     font-weight: 1000;
-    text-align: center;
+    text-align: center;;
     color: rgb(23, 26, 24);
 }
 
@@ -135,31 +136,31 @@ a{
     z-index: -1;
 }
 
-.bar, .section1-bg-col-blackolive{
+.section1-bg-col-blackolive{
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* ====================== */
 .section1-bg-col-blackolive,
 .section2-bg-col-bonewhite{
-    /* border-style: dotted; */
     text-align: center;
     width: 100%;
     min-height: 80vh;
 }
-/* ====================== */
 
 .section1-bg-col-blackolive{
     background-color: #3a3e3b;
-    padding-bottom: 0;
-    padding-top: 20%;
+    padding-bottom: 10%;
+    padding-top: 5%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .main-title{
     display: flex;
     justify-content: center;
+    margin-top: 30%;
+    margin-bottom: 30%;
     font-size: 90px;
     font-weight: 1000;
     color: white;
@@ -170,22 +171,18 @@ a{
 .story-container{
     width: 100%;
     min-width: fit-content;
-    padding-bottom: 50px;
+    padding: 10;
     display: flex;
     justify-content: center;
 }
 
 .section2-bg-col-bonewhite{
-    background-color: #f0eff4;
+    background-color: rgb(240, 239, 244);
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.6);
     width: 80%;
-    padding-top: 2%;
 }
 
 .title{
-    /* border-style: dotted;
-    border-color:brown; */
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -196,22 +193,29 @@ a{
 }
 
 .story-content{
-    /* border-style: dotted;
-    border-color: aqua; */
-
-    padding-top:30%;
+    padding-top: 20%;
     padding-bottom: 0;
     margin: 0;
     min-height: 90vh;
 }
 
 .content{
-    /* border-style: dotted;
-    border-color:brown; */
-
     text-align: justify;
     text-align-last: center;
     padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 0;
+}
+
+.side-by-side{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.side-by-side img{
+    width: 20rem;
 }

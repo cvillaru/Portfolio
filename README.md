@@ -1,4 +1,4 @@
 # Portfolio
 
--   parallax effect implemented
--   looks good
+-	added profile pic
+-	changed para in "Bad But Good News"
