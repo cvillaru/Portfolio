@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 3%;
     background-color: #ad7e56;
     box-shadow: 0 0 20px 12px rgba(0, 0, 0, 0.6);
     position: fixed;
@@ -77,13 +77,31 @@ body {
     width: 80%;
     padding-bottom: 5px;
     border-bottom: 1px solid white;
+    text-align: justify;
+}
+
+.navbar-button-container{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.navbar-button-container:hover{
+    border-radius: 25px;
+    background-color: rgba(43, 43, 43, 0.3);
+    transform: translate(10px);
+    transition: transform 0.1s ease-in;
+
+}
+
+.navbar-button-container:not(:hover){
+    transform: translate(0);
+    transition: transform 0.1s ease-out;
 }
 
 a{
     text-decoration: none;
-    text-align: justify;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 33px;
     color: white;
 }
 

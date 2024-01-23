@@ -1,4 +1,4 @@
 # Portfolio
 
--	added profile pic
--	changed para in "Bad But Good News"
+-	improved navbar - feels more reactive
+-	changed content in "what's my goal" to "what's this website for?"
