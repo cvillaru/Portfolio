@@ -1,22 +1,5 @@
-const navbarContainer = document.querySelector('.navbar-container');
-const navbarShader = document.querySelector('.navbar-shader');
-
-// blur background
-function triggerBlurEffect() {
-    navbarShader.style.setProperty('--display-value', 'block');
-    navbarShader.style.setProperty('--blur-value', '10px');
-}
-
-function triggerRemoveBlurEffect() {
-    navbarShader.style.setProperty('--display-value', 'none');
-    navbarShader.style.setProperty('--blur-value', '0px');
-}
-// end of blur background
-
-
-// better scroll
 document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('ul a');
+    const navLinks = document.querySelectorAll('nav a');
 
     navLinks.forEach(link => {
         link.addEventListener('click', scrollToSection);
@@ -39,5 +22,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
-
-// end of better scroll

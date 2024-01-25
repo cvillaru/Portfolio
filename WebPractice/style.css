@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
     width: 100%;
@@ -178,11 +182,9 @@ a{
 }
 
 .section2-bg-col-bonewhite{
-    background-color: rgb(240, 239, 244);
-    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.6);
     width: 80%;
-    border-radius: 25px;
     margin-bottom: 10rem;
+    padding-top: 2%;
 }
 
 .main-title{
@@ -221,6 +223,10 @@ a{
     display: flex;
     justify-content: center;
     align-items:center;
+
+    background-color: rgb(240, 239, 244);
+    border-radius: 25px;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.6);
 }
 
 .content{
